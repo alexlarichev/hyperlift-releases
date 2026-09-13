@@ -78,6 +78,62 @@ keeps working offline for up to 24 hours of plugin use between check-ins.
 
 [**Get a license →**](https://edm-ghost-production.com/plugins/hyperlift)
 
+## Changelog
+
+### 1.1.0 — 2026-09-13
+
+- **Buttons no longer stick under fast clicks.** LOOP, PITCH, BYPASS, LIMITER and STEREO now flip on every click, however fast you go. A double-click on the STEREO button counts as one click; a double-tap on its strip still resets MIN.
+- **Easier to read, easier to grab.** The captions under the FX pads are 20 % larger, the power strips under them are a touch taller, and the LOOP/PITCH block sits closer to INTENSITY.
+- **Typed values look right from the first keystroke.** The number waiting in the power-strip, OUTPUT and PITCH entry boxes now uses the same font and colour as what you type.
+
+### 1.0.9 — 2026-09-12
+
+- **The avatar shows there is an update.** While a newer build is out, the account avatar's ring turns blue, the same blue as Update available inside the menu, so you notice it without opening anything. A license problem still shows in red or amber, as before.
+
+### 1.0.8 — 2026-09-11
+
+- **Update available as a one-time toast.** When a newer build is out, a toast says so the moment you open the plugin. Click it to download the installer for your platform, or close it and it stays away until the next release.
+
+### 1.0.7 — 2026-09-11
+
+- **Update available, right in the plugin.** When a newer build is out, the About card and the account menu say so, with the version you have and the one you can get. A click downloads the installer for your platform.
+
+### 1.0.6 — 2026-09-09
+
+- **Sign-in works with hyphenated domains again.** The email check rejected them outright, so anyone on an address like my-studio.com could not log in and the plugin never said why.
+
+### 1.0.5 — 2026-09-09
+
+- **GUI SIZE in the About card.** Set the window to an exact scale between 60 and 150 % instead of dragging the corner until it looks right.
+- The About card now stamps the real build date, and the credit line links out.
+
+### 1.0.4 — 2026-09-05
+
+- **RESET button in the preset rack.** It lights up as soon as you’ve changed anything in the current preset, and one click puts the pads, power strips, LOOP, PITCH, STEREO and OUTPUT back to their defaults. INTENSITY is left alone, and your DAW’s Undo reverts the whole reset in one step.
+- **BYPASS now looks bypassed everywhere.** The INTENSITY dial, the power strips under the pads, STEREO and OUTPUT all dim along with the rest of the interface.
+
+### 1.0.3 — 2026-09-04
+
+- **BYPASS now bypasses the looper and pitch shifter too.** With LOOP or PITCH engaged, a bypassed plugin used to keep processing.
+- **The limiter no longer switches off with BYPASS.** It’s an output safety — it holds the ceiling either way.
+- LOOP and PITCH rows dim under BYPASS, like the rest of the UI.
+
+### 1.0.2 — 2026-09-01
+
+- **Windows installer and plugin are now code-signed.** Fixes the Smart App Control / “unknown publisher” block on Windows 11.
+
+### 1.0.1 — 2026-08-31
+
+Windows installer fixes:
+
+- Custom install folders now work with every DAW, including FL Studio.
+- Upgrading no longer leaves the old version behind.
+- Uninstall works with your DAW still open — no reboot required.
+
+### 1.0.0 — 2026-08-30
+
+- First public release: one Intensity knob, 25 presets, eight FX pads with power strips, a tempo-synced looper, a global pitch shifter and an output limiter. VST3 and Audio Unit on macOS (Apple Silicon and Intel), VST3 on Windows.
+
 ## FAQ
 
 **Is there a free trial?**

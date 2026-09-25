@@ -80,6 +80,10 @@ keeps working offline for up to 24 hours of plugin use between check-ins.
 
 ## Changelog
 
+### 1.1.1 — 2026-09-25
+
+- **Improved stability.** Reloading the plugin, using multiple instances, and closing the host application now work more reliably.
+
 ### 1.1.0 — 2026-09-13
 
 - **Buttons no longer stick under fast clicks.** LOOP, PITCH, BYPASS, LIMITER and STEREO now flip on every click, however fast you go. A double-click on the STEREO button counts as one click; a double-tap on its strip still resets MIN.
